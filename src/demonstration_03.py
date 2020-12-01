@@ -18,12 +18,13 @@ def string_int(txt):
     '''
     # Your code here
     #what to do if there is a letter in the given string - remove all but numbers - check other assignments
-    only_nums = re.sub('[^a-zA-Z ]', '', txt)
+    # only_nums = re.sub('[^a-zA-Z ]', '', txt) #replace 
+    # return int(only_nums)
 
-    return int(only_nums)
+    return int(txt)
 
 # check
 print(string_int("65"))
-print(string_int("65 tigers"))
+# print(string_int("65 tigers"))
 
 
